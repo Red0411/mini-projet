@@ -28,10 +28,15 @@ les section 3, 4 et 5.
 Délais :
 
 Réalisation de la page : ~10h.
+
 Header : ~30-40min
+
 Bannière : ~30min
+
 Portfolio : ~3h
+
 Slider : ~4h
+
 Text infinite : ~1h
 
 Difficultés rencontrés :
