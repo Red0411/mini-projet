@@ -1,0 +1,238 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Karla";
+  src: url("Karla-Regular.ttf"); }
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: white; }
+
+.hInterne {
+  width: 1200px;
+  height: 100%;
+  display: block;
+  margin: 0 auto; }
+
+.logoPlacement {
+  height: 100%;
+  display: table;
+  float: left; }
+
+.logoPlacement h1 {
+  color: black;
+  height: 100%;
+  display: table-cell;
+  vertical-align: top;
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: 200; }
+
+.logoPlacement img {
+  width: 75px; }
+
+.navigation {
+  float: right;
+  height: 100%; }
+
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+  cursor: pointer;
+  text-decoration: none; }
+
+.navigation a:last-child {
+  padding-right: 0; }
+
+.navigation a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: black;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  font-weight: 800;
+  outline: none;
+  text-decoration: none; }
+
+.banniere {
+  width: 100%;
+  height: 400px;
+  display: block;
+  font-family: 'Karla'; }
+
+.banniereInterne {
+  width: 1200px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 1em; }
+
+.banniereTitre h1 {
+  font-size: 20px;
+  display: block;
+  margin-left: 45%;
+  margin-top: 5%;
+  font-weight: 100; }
+
+.banniereContenu h1 {
+  display: block;
+  margin: 0;
+  padding: 10px 50px 20px;
+  margin-left: 20%;
+  margin-top: 3%;
+  font-size: 60px;
+  font-weight: 800; }
+
+.banniereContenu span {
+  border-bottom: solid 10px #FFD500; }
+
+.portfolio {
+  width: 100%;
+  height: 620px;
+  display: block;
+  font-family: 'Karla';
+  background-color: black;
+  margin-top: 14%; }
+
+.portfolioInterne {
+  width: 1200px;
+  height: 500px;
+  display: block;
+  margin: 0 auto; }
+
+.portfolioTitre h1 {
+  font-size: 20px;
+  display: inline-block;
+  margin-left: 40%;
+  margin-top: 6%;
+  font-weight: 100;
+  color: white; }
+
+.portfolioContenu img {
+  margin-top: 5%;
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: 85px;
+  margin-left: 11%;
+  display: inline-block; }
+
+#slider {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  margin-top: 55%;
+  z-index: 3; }
+
+#leSlide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  transition: left 1s;
+  right: 10; }
+
+#leSlide li {
+  display: table-cell;
+  /* on aligne les ├®l├®ments du slideshow */ }
+
+#slider:target #leSlide {
+  /* en ciblant #slideshow on d├®cale #sContent */
+  left: -200px;
+  /* ou - 100% */ }
+
+#slider:target #leSlide {
+  /* en ciblant #slideshow on d├®cale #sContent */
+  left: -1200px;
+  /* ou - 100% */ }
+
+.dessus {
+  width: 370px;
+  height: 350px;
+  background-color: white;
+  position: absolute;
+  left: 850px;
+  top: 100px;
+  box-shadow: 10px 5px 5px grey;
+  z-index: 1; }
+
+.dessusTexte h2 {
+  font-size: 22px;
+  font-family: 'Karla';
+  font-weight: 100;
+  text-align: center;
+  margin-top: 5%; }
+
+.dessusTexte h1 {
+  font-size: 55px;
+  font-weight: 100;
+  margin-top: 5%;
+  text-align: center; }
+
+.dessusTexte p {
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'karla';
+  margin-top: 5%;
+  text-align: center; }
+
+.dessusTexte strong {
+  font-size: 22px;
+  font-weight: 100;
+  text-align: center;
+  font-weight: 800;
+  display: block;
+  text-decoration: underline  #FFD500;
+  margin-top: 6%;
+  cursor: pointer; }
+
+.dessusTexte strong:hover {
+  font-style: italic; }
+
+.prev img {
+  position: absolute;
+  margin-top: 20%;
+  left: 90px;
+  z-index: 2;
+  width: 2%; }
+
+.next img {
+  position: absolute;
+  margin-top: 20%;
+  right: 90px;
+  z-index: 20;
+  width: 2%; }
+
+.barre {
+  margin: 0;
+  width: 100%;
+  height: 90px;
+  background-color: #FFD500;
+  color: white;
+  font-family: 'Karla';
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 25px;
+  font-weight: 800;
+  white-space: nowrap; }
+
+@media screen and (max-width: 414px) {
+  ul.header li {
+    display: inline-block;
+    width: 100px;
+    height: 40px; }
+
+  .portfolio {
+    display: none; } }
+
+/*# sourceMappingURL=mini-projet.css.map */
