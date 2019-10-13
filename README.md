@@ -1,8 +1,8 @@
 # mini-projet
 Installation :
 
-Pour voir le rendu final de ce mini-projet vous devez télécharger la totalité des documents mis à disposition et les placer dans un même dossier au nom que vous souhaiter. 
-Dans un second temps, il ne vous restera plus qu'a ouvrir la page html "mini-projet.html" et vous pourrez voir le résultat obtenu.
+Pour voir le rendu final de ce mini-projet vous devez télécharger la totalité des documents mis à disposition et les placer dans un même dossier du nom que vous souhaiter. 
+Dans un second temps, il ne vous restera plus qu'a ouvrir la page html "mini-projet.html" dans votre navigateur et vous pourrez voir le résultat obtenu.
 
 Description/fonctionnement de la page : 
 
